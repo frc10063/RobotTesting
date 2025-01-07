@@ -8,13 +8,13 @@ import edu.wpi.first.math.MathUtil;
 import edu.wpi.first.math.filter.SlewRateLimiter;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.XboxController;
-import edu.wpi.first.wpilibj2.command.button.CommandJoystick;
+//import edu.wpi.first.wpilibj2.command.button.CommandJoystick;
 
 public class Robot extends TimedRobot {
   //Defining the controller objects here, not sure which we are using
   private final XboxController m_controller = new XboxController(0);
-  private final CommandJoystick m_leftJoystick = new CommandJoystick(0);
-  private final CommandJoystick m_righJoystick = new CommandJoystick(1);
+  //private final CommandJoystick m_leftJoystick = new CommandJoystick(0);
+  //private final CommandJoystick m_righJoystick = new CommandJoystick(1);
 
   private final Drivetrain m_swerve = new Drivetrain();
 
